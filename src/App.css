@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 10px 30px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-column-gap: 20px;
+}
+
+.map {
+  height: 550px;
+
+  overflow: hidden;
+}
+
+.map-title {
+  margin: 10px 0;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.assets {
+  padding-left: 10px;
+  height: 550px;
+  overflow: hidden;
+
+}
+
+.menu-assets {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.assets-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.assets-text {
+  display: block;
+  padding-left: 20px;
+  width: 80%;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+
+}
+
+.border {
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.checkbox {
+  opacity: 0;
+}

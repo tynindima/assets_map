@@ -1,0 +1,14 @@
+.header {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-column-gap: 20px;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel__input {
+  margin-right: 10px;
+}

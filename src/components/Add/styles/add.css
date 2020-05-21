@@ -1,0 +1,38 @@
+.wrapper {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  background-color: ghostwhite;
+  border-radius: 20px;
+}
+
+.buttonCancel {
+  border: none;
+  background-color: orange;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.buttons-delblock {
+  margin-left: 50%;
+}
+
+.input-box {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.asset-label {
+  width: 150px;
+}
